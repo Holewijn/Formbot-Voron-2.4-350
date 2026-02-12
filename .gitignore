@@ -14,6 +14,8 @@ Thumbs.db
 *.bak
 config_backup.cfg
 *-backup.cfg
+KlipperScreen.conf
+
 
 ############################
 # Auto-generated printer backups
