@@ -33,14 +33,6 @@ enable_object_processing = True
 channel = dev
 refresh_interval = 168
 
-[update_manager Demon_Klipper_Essentials_Unified]
-type = git_repo
-path = ~/printer_data/config/Demon_Klipper_Essentials_Unified
-origin = https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified.git
-primary_branch = main
-is_system_service = False
-managed_services = klipper
-
 [update_manager mainsail]
 path = /home/biqu/mainsail
 repo = mainsail-crew/mainsail
@@ -93,4 +85,12 @@ origin = https://github.com/andrewmcgr/klipper_tmc_autotune.git
 managed_services = klipper
 primary_branch = main
 install_script = install.sh
+
+[update_manager Klipper-Adaptive-Meshing-Purging]
+type = git_repo
+channel = dev
+path = ~/Klipper-Adaptive-Meshing-Purging
+origin = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+managed_services = klipper
+primary_branch = main
 
