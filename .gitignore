@@ -1,4 +1,34 @@
- saved_variables.cfg
- adxl_results/belts/*.csv
- adxl_results/vibrations/*.tar.gz
+############################
+# Editor / OS junk
+############################
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+############################
+# Backup files
+############################
+*.bkp
+*.bak
+config_backup.cfg
+*-backup.cfg
+
+############################
+# Auto-generated printer backups
+############################
+printer-*.cfg
+crowsnest.conf.*
+
+############################
+# Moonraker local state
+############################
+moonraker-sql.db
+
+############################
+# Optional: temp / cache
+############################
+*.tmp
+*.temp
 
