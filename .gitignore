@@ -1,36 +1,20 @@
-############################
-# Editor / OS junk
-############################
-*.swp
-*.swo
-*~
-.DS_Store
-Thumbs.db
+# Ignore everything by default
+*
 
-############################
-# Backup files
-############################
-*.bkp
-*.bak
-config_backup.cfg
-*-backup.cfg
-KlipperScreen.conf
+# But keep printer_data itself
+!/
 
+# Allow the config folder
+!config/
+!config/**
 
-############################
-# Auto-generated printer backups
-############################
-printer-*.cfg
-crowsnest.conf.*
+# Keep .gitignore tracked
+!.gitignore
 
-############################
-# Moonraker local state
-############################
-moonraker-sql.db
-
-############################
-# Optional: temp / cache
-############################
-*.tmp
-*.temp
-
+# Extra ignores inside config
+config/*.swp
+config/*.bkp
+config/*-backup.cfg
+config/printer-*.cfg
+config/crowsnest.conf.*
+config/moonraker-sql.db

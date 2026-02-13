@@ -1,0 +1,36 @@
+############################
+# Editor / OS junk
+############################
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+############################
+# Backup files
+############################
+*.bkp
+*.bak
+config_backup.cfg
+*-backup.cfg
+KlipperScreen.conf
+
+
+############################
+# Auto-generated printer backups
+############################
+printer-*.cfg
+crowsnest.conf.*
+
+############################
+# Moonraker local state
+############################
+moonraker-sql.db
+
+############################
+# Optional: temp / cache
+############################
+*.tmp
+*.temp
+
