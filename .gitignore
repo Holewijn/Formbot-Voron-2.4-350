@@ -8,6 +8,10 @@
 !config/
 !config/**
 
+# Allow history folder (printer stats, logs snapshots)
+!history/
+!history/**
+
 # Keep .gitignore tracked
 !.gitignore
 
