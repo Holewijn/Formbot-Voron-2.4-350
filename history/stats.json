@@ -1,8 +1,8 @@
 {
-  "total_print_time": "null",
-  "longest_print_time": "null",
-  "average_print_time": "null",
-  "total_filament_m": null,
-  "total_jobs": null,
-  "snapshot_at": "2026-02-13 10:28:50"
+  "total_print_time": "N/A",
+  "longest_print_time": "N/A",
+  "average_print_time": "N/A",
+  "total_filament_m": 0,
+  "total_jobs": 0,
+  "snapshot_at": "2026-02-13 10:42:50"
 }
