@@ -38,6 +38,12 @@ This repository is automatically kept in sync from the printer:
 
 This makes it easy to roll back changes or recover configs after a crash or SD card failure.
 
+```md
+## 🤖 Auto Backups
+
+This repo is automatically backed up from the printer.  
+See **[AUTOPUSH.md](./AUTOPUSH.md)** for setup details
+
 ## 🧰 Hardware & Mods
 
 - **Printer:** Voron 2.4  
