@@ -15,6 +15,10 @@
 # Keep .gitignore tracked
 !.gitignore
 
+# Keep docs tracked
+!README.md
+!AUTOPUSH.md
+
 # Extra ignores inside config
 config/*.swp
 config/*.bkp

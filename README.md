@@ -1,9 +1,7 @@
 # 🖨️ Voron 2.4 – Klipper Configuration (Stealthburner)
 
-This repository contains my personal **Klipper configuration** for my **Voron 2.4** running a **Stealthburner** toolhead.  
+This repository contains my personal **Klipper configuration** for my **Formbot Voron 2.4** running a **Stealthburner** toolhead.  
 The structure mirrors my printer’s `printer_data/config` directory and is automatically backed up to GitHub whenever changes are made on the printer.
-
-## 📊 Live Printer Stats
 
 <!-- STATS:START -->
 
