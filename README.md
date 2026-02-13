@@ -6,7 +6,17 @@ The structure mirrors my printer’s `printer_data/config` directory and is auto
 ## 📊 Live Printer Stats
 
 <!-- STATS:START -->
-(autoupdated)
+
+## 📊 Live Printer Stats
+
+- ⏱️ **Total print time:** N/A
+- 🏁 **Longest print:** N/A
+- ⚖️ **Average print:** N/A
+- 🧵 **Total filament used:** 0 m
+- 🧾 **Total jobs:** 0
+
+_Last updated: 2026-02-13 10:46:00
+
 <!-- STATS:END -->
 
 ## 📁 Repository Structure
