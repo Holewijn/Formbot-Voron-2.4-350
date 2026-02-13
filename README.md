@@ -17,6 +17,11 @@ _Last updated: 2026-02-13 11:28:00
 
 <!-- STATS:END -->
 
+## 🛣️ Roadmap
+
+Planned upgrades and wishlist items are tracked as GitHub Issues with the `roadmap` label:  
+👉 https://github.com/holewijn/Formbot-Voron-2.4-350/issues?q=label:roadmap
+
 ## 📁 Repository Structure
 
 config/
