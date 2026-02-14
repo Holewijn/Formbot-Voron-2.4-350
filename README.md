@@ -17,6 +17,13 @@ _Last updated: 2026-02-14 22:20:05
 
 <!-- STATS:END -->
 
+## 🧰 Background Services
+
+<!-- HEARTBEAT:START -->
+(autoupdated service heartbeat)
+<!-- HEARTBEAT:END -->
+
+
 ## 🛣️ Roadmap
 
 Planned upgrades and wishlist items are tracked as GitHub Issues with the `roadmap` label:  
