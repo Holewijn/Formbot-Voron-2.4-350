@@ -7,13 +7,13 @@ The structure mirrors my printer’s `printer_data/config` directory and is auto
 
 ## 📊 Live Printer Stats
 
-- ⏱️ **Total print time:** 530h 33m 10s
+- ⏱️ **Total print time:** 543h 0m 39s
 - 🏁 **Longest print:** 28h 15m 13s
-- ⚖️ **Average print:** 1h 55m 20s
-- 🧵 **Total filament used:** 4154.5 m
-- 🧾 **Total jobs:** 276
+- ⚖️ **Average print:** 1h 54m 43s
+- 🧵 **Total filament used:** 4235.6 m
+- 🧾 **Total jobs:** 284
 
-_Last updated: 2026-02-15 22:51:16
+_Last updated: 2026-02-16 22:29:10
 
 <!-- STATS:END -->
 
@@ -21,8 +21,8 @@ _Last updated: 2026-02-15 22:51:16
 
 <!-- HEARTBEAT:START -->
 
-- 🔄 Config AutoPush: ✅ last seen 2026-02-16 13:09:44
-- 📊 Stats Snapshot: (see stats section)
+- 🔄 Config AutoPush: ⏳ unchanged
+- 📊 Stats Snapshot: ✅ last seen 2026-02-16 22:29:10
 
 <!-- HEARTBEAT:END -->
 
