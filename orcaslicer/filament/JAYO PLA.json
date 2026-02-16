@@ -1,0 +1,39 @@
+{
+    "compatible_printers": [
+        "Voron 2.4 350 0.4 nozzle"
+    ],
+    "default_filament_colour": [
+        "#80FF00"
+    ],
+    "filament_cost": [
+        "8"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_flow_ratio": [
+        "0.96"
+    ],
+    "filament_settings_id": [
+        "JAYO PLA"
+    ],
+    "filament_vendor": [
+        "JAYO"
+    ],
+    "from": "User",
+    "inherits": "Generic PLA @System",
+    "name": "JAYO PLA",
+    "nozzle_temperature": [
+        "210"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "215"
+    ],
+    "textured_cool_plate_temp": [
+        "50"
+    ],
+    "textured_cool_plate_temp_initial_layer": [
+        "50"
+    ],
+    "version": "2.3.2.40"
+}
