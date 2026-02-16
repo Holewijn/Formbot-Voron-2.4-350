@@ -12,6 +12,10 @@
 !history/
 !history/**
 
+# Allow the orcaslicer folder
+!orcaslicer/
+!orcaslicer/**
+
 # Keep .gitignore tracked
 !.gitignore
 
