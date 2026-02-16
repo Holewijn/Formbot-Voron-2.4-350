@@ -1,0 +1,60 @@
+{
+    "from": "User",
+    "inherits": "Voron 2.4 350 0.4 nozzle",
+    "machine_max_acceleration_extruding": [
+        "1500",
+        "20000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "1500",
+        "5000"
+    ],
+    "machine_max_acceleration_x": [
+        "2500",
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "2500",
+        "20000"
+    ],
+    "machine_max_jerk_x": [
+        "10",
+        "12"
+    ],
+    "machine_max_jerk_y": [
+        "10",
+        "12"
+    ],
+    "machine_max_speed_x": [
+        "200",
+        "200"
+    ],
+    "machine_max_speed_y": [
+        "200",
+        "200"
+    ],
+    "machine_start_gcode": "print_start EXTRUDER=[first_layer_temperature[initial_tool]] BED=[first_layer_bed_temperature] NOZZLE=[nozzle_diameter]\n\n",
+    "name": "Voron 2.4 350 0.4",
+    "nozzle_volume": [
+        "15"
+    ],
+    "print_host": "192.168.1.76",
+    "printable_height": "340",
+    "printer_agent": "moonraker",
+    "printer_extruder_id": [
+        "1"
+    ],
+    "printer_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "printer_settings_id": "Voron 2.4 350 0.4",
+    "retraction_length": [
+        "1"
+    ],
+    "retraction_speed": [
+        "50"
+    ],
+    "support_multi_bed_types": "1",
+    "time_cost": "1",
+    "version": "2.3.2.40"
+}

@@ -1,0 +1,19 @@
+{
+    "filename_format": "[input_filename_base].N=[nozzle_diameter].gcode",
+    "from": "User",
+    "inherits": "0.20mm Standard @Voron",
+    "name": "0.20 mm N=0.4",
+    "only_one_wall_top": "1",
+    "precise_z_height": "1",
+    "print_extruder_id": [
+        "1"
+    ],
+    "print_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "print_settings_id": "0.20 mm N=0.4",
+    "reduce_crossing_wall": "1",
+    "skirt_loops": "3",
+    "small_area_infill_flow_compensation": "1",
+    "version": "2.3.2.40"
+}
