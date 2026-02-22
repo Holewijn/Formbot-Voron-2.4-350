@@ -21,8 +21,8 @@ _Last updated: 2026-02-22 12:44:39
 
 <!-- HEARTBEAT:START -->
 
-- 🔄 Config AutoPush: ⏳ unchanged
-- 📊 Stats Snapshot: ✅ last seen 2026-02-22 12:44:39
+- ?? Config AutoPush: ? last seen 2026-02-22 12:44:55
+- ?? Stats Snapshot: ? unchanged
 
 <!-- HEARTBEAT:END -->
 
