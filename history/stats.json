@@ -1,10 +1,10 @@
 {
   "source_db": "/home/biqu/printer_data/database/moonraker-sql.db",
   "table": "job_history",
-  "total_print_time": "551h 40m 58s",
+  "total_print_time": "556h 7m 51s",
   "longest_print_time": "28h 15m 13s",
-  "average_print_time": "1h 54m 8s",
-  "total_filament_m": 4299.8,
-  "total_jobs": 290,
-  "snapshot_at": "2026-02-18 20:45:27"
+  "average_print_time": "1h 53m 53s",
+  "total_filament_m": 4318.4,
+  "total_jobs": 293,
+  "snapshot_at": "2026-02-22 12:44:39"
 }
