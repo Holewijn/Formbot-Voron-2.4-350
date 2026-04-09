@@ -1,0 +1,69 @@
+# ---- Set filament ----
+[gcode_macro SET_FILAMENT]
+description: Set current loaded filament
+variable_material: "UNKNOWN"
+gcode:
+    {% set mat = params.MATERIAL|upper %}
+    SET_GCODE_VARIABLE MACRO=SET_FILAMENT VARIABLE=material VALUE='"{mat}"'
+    SAVE_VARIABLE VARIABLE=current_filament VALUE='"{mat}"'
+    M117 Filament: {mat}
+    RESPOND TYPE=command MSG="Filament set to {mat}"
+
+
+# ---- Show filament ----
+[gcode_macro SHOW_FILAMENT]
+description: Show current filament
+gcode:
+    {% set mat = printer.save_variables.variables.current_filament|default("NOT SET") %}
+    M117 Current: {mat}
+    RESPOND TYPE=command MSG="Current filament: {mat}"
+
+
+# ---- Safety check ----
+[gcode_macro CHECK_FILAMENT]
+description: Validate filament before print
+gcode:
+    {% set expected = params.MATERIAL|upper %}
+    {% set current = printer.save_variables.variables.current_filament|default("UNKNOWN") %}
+
+    {% if expected != current %}
+        M117 WRONG FILAMENT!
+        RESPOND TYPE=error MSG="Expected {expected} but loaded {current}"
+        PAUSE
+    {% else %}
+        M117 Filament OK: {current}
+        RESPOND TYPE=command MSG="Filament check passed"
+    {% endif %}
+
+
+# ---- Quick select buttons ----
+[gcode_macro SET_PLA]
+gcode:
+    SET_FILAMENT MATERIAL=PLA
+
+[gcode_macro SET_PETG]
+gcode:
+    SET_FILAMENT MATERIAL=PETG
+
+[gcode_macro SET_ABS]
+gcode:
+    SET_FILAMENT MATERIAL=ABS
+
+[gcode_macro SET_ABS]
+gcode:
+    SET_FILAMENT MATERIAL=TPU
+	
+
+# ---- Optional: cancel instead of pause ----
+# Replace PAUSE with CANCEL_PRINT inside CHECK_FILAMENT if preferred
+
+
+# ================================
+# SLICER START G-CODE
+# ================================
+
+# PrusaSlicer / OrcaSlicer:
+# CHECK_FILAMENT MATERIAL={filament_type}
+
+# Cura:
+# CHECK_FILAMENT MATERIAL={material_type}
